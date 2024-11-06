@@ -1,0 +1,14 @@
+// redux APIs
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
+// for querying action - createAsyncThunk or create action
+// differences is -
+// createAsyncThunk - to handle Async action eg requesting to 3rd party server
+// createAction - to handle asynchronous action
+
+
+// slice- individual entities - section for what controllers and endpoints are created
+// each endpoints are actions
+extraReducers and reducers both are to handle actions but difference is extraReducers is to handle async actions and reducers is asynchronous action
+// action created has 3 states - pending, fullfilled and rejected
+
+peackok - extension - sidebar color
